@@ -1,3 +1,13 @@
+# Fork Information
+
+This is a fork of the [Namespace Node Affinity](https://github.com/idgenchev/namespace-node-affinity) tool.  The purpose of this fork is:
+* to have a codebase from which Canonical can build and store our own images for this tool in order to ensure we know that images are properly security patched and that they do not change unexpectedly 
+* (when needed) have a place to commit bugfixes or feature additions that differ from the upstream project (although if at all possible, these will be passed upstream)
+
+In general, the intent here is to maintain a fork that is nearly in sync with upstream.
+
+Details of any changes, as well as any additional usage and debugging notes, are in [README_fork.md](./README_fork.md).
+
 ![CI](https://github.com/idgenchev/namespace-node-affinity/actions/workflows/ci.yaml/badge.svg?branch=main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/idgenchev/namespace-node-affinity)](https://goreportcard.com/report/github.com/idgenchev/namespace-node-affinity)
 [![codecov](https://codecov.io/gh/idgenchev/namespace-node-affinity/branch/main/graph/badge.svg?token=MEIA879BHX)](https://codecov.io/gh/idgenchev/namespace-node-affinity)
