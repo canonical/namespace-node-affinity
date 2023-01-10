@@ -13,8 +13,8 @@ Although we strive to leave files as they were, a few major deviations are requi
 ## Publishing
 
 This repository has CI that publishes build images to [dockerhub](https://hub.docker.com/r/charmedkubeflow/namespace-node-affinity) on the following events:
-* push to main: image is pushed to [dockerhub](https://hub.docker.com/r/charmedkubeflow/namespace-node-affinity) with tags of `main` and `HASH`
-* new tag or release following pattern `vX.X.X`: image is pushed to [dockerhub](https://hub.docker.com/r/charmedkubeflow/namespace-node-affinity) with tags of `X.X.X` and `latest`
+* push to main: image is pushed to [dockerhub](https://hub.docker.com/r/charmedkubeflow/namespace-node-affinity) with tags of `main`, `HASH`, and `latest`
+* new tag or release following pattern `vX.X.X`: image is pushed to [dockerhub](https://hub.docker.com/r/charmedkubeflow/namespace-node-affinity) with tags of `X.X.X`
 
 To create releases to be used by the [Namespace Node Affinity charm](https://github.com/canonical/namespace-node-affinity-operator), either [create a new release](https://github.com/canonical/namespace-node-affinity/releases/new) or directly use the hash of the desired image.  
 
