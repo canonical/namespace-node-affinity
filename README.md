@@ -8,6 +8,10 @@ In general, the intent here is to maintain a fork that is nearly in sync with up
 
 Details of any changes, as well as any additional usage and debugging notes, are in [README_fork.md](./README_fork.md).
 
+For details on how images for this fork are published to [dockerhub](https://hub.docker.com/r/charmedkubeflow/namespace-node-affinity), see [Publishing](./README_fork.md#publishing).
+
+# Original Readme:
+
 ![CI](https://github.com/idgenchev/namespace-node-affinity/actions/workflows/ci.yaml/badge.svg?branch=main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/idgenchev/namespace-node-affinity)](https://goreportcard.com/report/github.com/idgenchev/namespace-node-affinity)
 [![codecov](https://codecov.io/gh/idgenchev/namespace-node-affinity/branch/main/graph/badge.svg?token=MEIA879BHX)](https://codecov.io/gh/idgenchev/namespace-node-affinity)
